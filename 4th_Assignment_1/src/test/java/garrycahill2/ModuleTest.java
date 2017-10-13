@@ -12,7 +12,7 @@ public class ModuleTest {
     @Test
     public void addStudent() throws Exception {
         student student = new student("Garry", "Cahill", "14416988", new LocalDate(1996, 5, 7));
-        module module = new module("Programming", "CT123", new ArrayList<student>());
+        module module = new module("Software Engineering", "CT417", new ArrayList<student>());
 
         module.addStudent(student);
     }
